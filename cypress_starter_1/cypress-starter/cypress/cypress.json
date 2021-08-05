@@ -1,0 +1,6 @@
+{
+       "env": {
+      "login": "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihubqp9ZbyAhVtyzgGHQJmAiMQPAgI",
+      "products_url": "/products"
+    }
+  }

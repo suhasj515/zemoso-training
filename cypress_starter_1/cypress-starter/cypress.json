@@ -1,0 +1,10 @@
+{
+    "env": {
+   "login": "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihubqp9ZbyAhVtyzgGHQJmAiMQPAgI",
+   "products_url": "/products",
+   "url_g": "http://bc15-green-commute.dev-apps.io/",
+   "next_button" : "#root > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-7 > div > div.jss3 > div.jss7 > div > div > div > div",
+   "input_area" : "MuiInputBase-input jss17"
+
+ }
+}
