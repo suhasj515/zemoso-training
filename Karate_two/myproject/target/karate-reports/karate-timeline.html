@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-4","id":1},{"content":"pool-1-thread-1","id":2},{"content":"pool-1-thread-2","id":3},{"content":"pool-1-thread-3","id":4},{"content":"pool-1-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"examples\/users\/uiTest[1:3]","start":1628831200850,"end":1628831237231,"title":"examples\/users\/uiTest[1:3] 10:36:40.850-10:37:17.231 Login"},{"id":2,"group":2,"content":"examples\/users\/getCall[1:8]","start":1628831200218,"end":1628831208503,"title":"examples\/users\/getCall[1:8] 10:36:40.218-10:36:48.503 Get details of Users"},{"id":3,"group":3,"content":"examples\/users\/getCall[2:15]","start":1628831200222,"end":1628831208980,"title":"examples\/users\/getCall[2:15] 10:36:40.222-10:36:48.980 Update users Job"},{"id":4,"group":4,"content":"examples\/users\/getCall[3:30]","start":1628831200228,"end":1628831200763,"title":"examples\/users\/getCall[3:30] 10:36:40.228-10:36:40.763 1st one"},{"id":5,"group":1,"content":"examples\/users\/getCall[4:34]","start":1628831200221,"end":1628831200836,"title":"examples\/users\/getCall[4:34] 10:36:40.221-10:36:40.836 2nd one"},{"id":6,"group":5,"content":"examples\/users\/project[1:7]","start":1628831200224,"end":1628831212379,"title":"examples\/users\/project[1:7] 10:36:40.224-10:36:52.379 Tasks related"},{"id":7,"group":4,"content":"examples\/users\/project[2:56]","start":1628831200789,"end":1628831210962,"title":"examples\/users\/project[2:56] 10:36:40.789-10:36:50.962 Labels related"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

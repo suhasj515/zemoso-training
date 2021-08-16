@@ -1,0 +1,16 @@
+14:03:20.209 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:04:54.805 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:05:50.538 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:06:11.727 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:08:04.119 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:09:45.667 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:11:25.912 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:13:23.372 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+14:13:24.353 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:21:26.606 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:32:44.921 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:35:04.160 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:36:04.937 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:49:18.865 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:53:09.428 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
+14:55:00.570 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/getCall.feature - mismatched input 'd' expecting <EOF>
