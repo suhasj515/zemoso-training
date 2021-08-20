@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test In TestNg package">
+    <test verbose="2" preserve-order="true" name="C:/Users/Naveengowda/IdeaProjects/untitled1">
+        <classes>
+            <class name="TestNg_practice.p1">
+            </class>
+            <class name="TestNg_practice.p2"></class>
+        </classes>
+    </test>
+    
+    <test name="Producers">
+        <classes>
+            <class name="TestNg_practice.ModuleProducer">
+                <methods>
+                    <exclude name="mobile.*"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Consumers">
+        <classes>
+            <class name="TestNg_practice.ModuleCustomer">
+                <methods>
+                    <include name="loginApiTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
