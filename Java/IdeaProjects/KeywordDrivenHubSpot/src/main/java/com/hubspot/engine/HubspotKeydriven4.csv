@@ -1,0 +1,11 @@
+test step,locator,action,value
+open browser,NA,open browser,chrome
+launch url,NA,enter url,http://app.hubspot.com/login
+enter email address,id=username,sendkeys,suhas@gmail.com
+enter passwood,id=password,sendkeys,topassenterword
+click on login button,id=loginBtn,click,NA
+close browser,NA,quit,NA
+open browser,NA,open browser,chrome
+launch url,NA,enter url,http://app.hubspot.com/login
+verify sign up link,linkText=Sign up,click,NA
+close browser,NA,quit,NA
